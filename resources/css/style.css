@@ -21,12 +21,12 @@ html {
 /*---------------------------------------------*/
 
 .row {
-  max-width: 1140px;
+  /* max-width: 1140px; */
   margin: 0 auto;
 }
 
 section {
-  padding: 60px 0;
+  padding-bottom: 75px;
 }
 
 h1,h2 {
@@ -43,6 +43,14 @@ h2 {
   font-size: 180%;
 }
 
+/*---------------------------------------------*/
+/* SECTIONS */
+/*---------------------------------------------*/
+
+.section-feature{
+  padding: 60px;
+}
+
 .section-requirements div div{
   border: 1px solid #F5F5F5;
   padding: 50px 50px;
@@ -50,9 +58,15 @@ h2 {
   text-align: center;
 }
 
+.section-feature-image {
+  border-top: 1px solid #F5F5F5;
+  padding-left: 60px;
+  padding-right: 60px;
+}
+
 .feature-img {
   width: 100%;
-  max-width: 1140px;
+  /* max-width: 1140px; */
 }
 /*---------------------------------------------*/
 /* HEADER */
@@ -74,11 +88,14 @@ header {
 /*---------------------------------------------*/
 /* NAVBAR */
 /*---------------------------------------------*/
+.nav {
+  padding: 30px 30px;
+}
 .logo {
   height: 30px;
   width: auto;
   margin: 15px 15px;
-  /* float: left; */
+  float: left;
 }
 
 .main-nav {
@@ -115,6 +132,7 @@ footer{
   list-style: none;
   float: left;
   margin: 10px 10px;
+  padding-left: 60px;
 }
 
 .social-links{
@@ -134,5 +152,6 @@ footer{
   height: 20px;
   width: auto;
   margin: 10px 10px;
+  /* border: 2px solid #fff; */
   /* float: left; */
 }

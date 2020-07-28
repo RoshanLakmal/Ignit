@@ -1,3 +1,6 @@
+/*---------------------------------------------*/
+/* BASIC SETUP FOR IGNITE */
+/*---------------------------------------------*/
 * {
   margin: 0;
   padding: 0;
@@ -13,11 +16,26 @@ html {
   text-rendering: optimizeLegibility;
 }
 
+/*---------------------------------------------*/
+/* REUSABLE COMPONENTS */
+/*---------------------------------------------*/
+
 .row {
   max-width: 1140px;
   margin: 0 auto;
 }
 
+
+h1 {
+  margin: 0;
+  font-size: 280%;
+  letter-spacing: 1px;
+  word-spacing: 4px;
+}
+
+/*---------------------------------------------*/
+/* HEADER */
+/*---------------------------------------------*/
 header {
   background-image: url(../img/header-img-01.jpg);
   background-size: cover;
@@ -32,9 +50,35 @@ header {
   left: 50%;
 }
 
-h1 {
-  margin: 0;
-  font-size: 280%;
-  letter-spacing: 1px;
-  word-spacing: 4px;
+/*---------------------------------------------*/
+/* NAVBAR */
+/*---------------------------------------------*/
+.logo {
+  height: 30px;
+  width: auto;
+  margin: 15px 15px;
+  /* float: left; */
+}
+
+.main-nav {
+  float: right;
+  list-style: none;
+  margin: 15px 15px;
+}
+
+.main-nav li {
+  display: inline;
+  margin-left: 40px;
+}
+
+.main-nav li a:link,
+.main-nav li a:visited {
+  color: #000;
+  text-decoration:none;
+  font-size: 90%;
+}
+
+.main-nav li a:hover,
+.main-nav li a:active {
+  border-bottom: 2px solid #ff3454;
 }

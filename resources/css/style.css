@@ -25,14 +25,35 @@ html {
   margin: 0 auto;
 }
 
+section {
+  padding: 60px 0;
+}
+
+h1,h2 {
+  letter-spacing: 1px;
+}
 
 h1 {
   margin: 0;
   font-size: 280%;
-  letter-spacing: 1px;
   word-spacing: 4px;
 }
 
+h2 {
+  font-size: 180%;
+}
+
+.section-requirements div div{
+  border: 1px solid #F5F5F5;
+  padding: 50px 50px;
+  margin: 0;
+  text-align: center;
+}
+
+.feature-img {
+  width: 100%;
+  max-width: 1140px;
+}
 /*---------------------------------------------*/
 /* HEADER */
 /*---------------------------------------------*/
@@ -81,4 +102,37 @@ header {
 .main-nav li a:hover,
 .main-nav li a:active {
   border-bottom: 2px solid #ff3454;
+}
+
+/*---------------------------------------------*/
+/* FOOTER */
+/*---------------------------------------------*/
+footer{
+  background-color: #ff3454;
+}
+
+.footer-nav{
+  list-style: none;
+  float: left;
+  margin: 10px 10px;
+}
+
+.social-links{
+  list-style: none;
+  float: right;
+
+}
+
+.footer-nav li,
+.social-links li{
+  display: inline-block;
+  margin-right: 20px;
+  color: #fff;
+}
+
+.social-img {
+  height: 20px;
+  width: auto;
+  margin: 10px 10px;
+  /* float: left; */
 }

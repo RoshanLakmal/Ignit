@@ -45,7 +45,7 @@ header {
 
 .main-text-box {
   position: absolute;
-  width: 1140px;
+  /* width: 1140px; */
   top: 70%;
   left: 50%;
 }

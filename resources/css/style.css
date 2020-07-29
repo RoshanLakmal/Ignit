@@ -81,7 +81,7 @@ header {
 .main-text-box {
   position: absolute;
   /* width: 1140px; */
-  top: 70%;
+  top: 80%;
   left: 50%;
 }
 
@@ -98,6 +98,7 @@ header {
   float: left;
 }
 
+/* Main navi*/
 .main-nav {
   float: right;
   list-style: none;
@@ -121,6 +122,15 @@ header {
   border-bottom: 2px solid #ff3454;
 }
 
+/* Sticky navi */
+.sticky {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #fff;
+  z-index: 9999;
+}
 /*---------------------------------------------*/
 /* FOOTER */
 /*---------------------------------------------*/
@@ -154,4 +164,40 @@ footer{
   margin: 10px 10px;
   /* border: 2px solid #fff; */
   /* float: left; */
+}
+
+/*---------------------------------------------*/
+/* Animation */
+/*---------------------------------------------*/
+.js--wp-1 {
+  opacity: 0;
+}
+
+.js--wp-2 {
+  opacity: 0;
+}
+.js--wp-2-display {
+  opacity: 1;
+}
+
+.js--wp-3 {
+  opacity: 0;
+}
+.js--wp-3-display {
+  opacity: 1;
+}
+
+#cover {
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background: #141526;
+  z-index: 9999;
+  font-size: 65px;
+  text-align: center;
+  padding-top: 200px;
+  color: #fff;
+  font-family:tahoma;
 }

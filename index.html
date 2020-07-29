@@ -1,9 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"
+  />
     <link rel="stylesheet" type="text/css" href="vendors/css/normalize.css">
     <link rel="stylesheet" type="text/css" href="vendors/css/Grid.css">
     <link rel="stylesheet" type="text/css" href="resources/css/style.css">
+    <link rel="stylesheet" type="text/css" href="resources/css/queries.css">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;1,300&display=swap" rel="stylesheet">
     <title>Ignite</title>
   </head>
@@ -13,22 +19,22 @@
         <img src="./resources/img/logo.png" alt="Ignite" class="logo">
         <ul class="main-nav">
           <li><a href="#">Home</a></li>
-          <li><a href="#">Login</a></li>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Contact</a></li>
+          <li><a href="#website">Websites</a></li>
+          <li><a href="#industries">Industries</a></li>
+          <li><a href="#about">About</a></li>
         </ul>
       </div>
 
     </nav>
     <header>
-      <div class="main-text-box">
+      <div class="main-text-box" >
         <h1>We craft intuitive <br>
             online journeys that<br>
             tell complex stories
         </h1>
       </div>
     </header>
-    <section class="section-feature">
+    <section class="section-feature js--section-features js--wp-1" id="website">
       <div class="row">
         <div class="col span-1-of-2">
           <h2>Featured Websites</h2>
@@ -38,7 +44,7 @@
         </div>
       </div>
     </section>
-    <section class="section-feature-image">
+    <section class="section-feature-image js--wp-2" >
       <div class="row">
           <img src="./resources/img/client-image-01.jpg" alt="client-img-01" class="feature-img">
         <div class="row">
@@ -51,12 +57,12 @@
         </div>
       </div>
     </section>
-    <section class="section-feature-image">
+    <section class="section-feature-image js--wp-3" id="industries">
       <div class="row">
           <img src="./resources/img/client-image-02.jpg" alt="client-img-02" class="feature-img">
         <div class="row">
           <div class="col span-1-of-2">
-            <h3>Pancake & Associates</h3>
+            <h3>Jelly Bean Industries</h3>
           </div>
           <div class="col span-1-of-2">
             <p>A newly redeveloped website and strong digital marketing strategy accross all channels</p>
@@ -67,20 +73,20 @@
     <section class="section-requirements">
       <div class="row">
           <div class="col span-1-of-2">
-            <h3>I need an amazing
+            <h3 class="js--wp-4">I need an amazing
               <br>website
              </h3>
             <p>Let's get started!</p>
           </div>
           <div class="col span-1-of-2">
-            <h3>My website needs
+            <h3 class="js--wp-4">My website needs
               <br>more sale.
             </h3>
             <p>Let's boost it!</p>
           </div>
       </div>
     </section>
-    <footer>
+    <footer id="about">
       <div class="row">
         <div class="col span-1-of-2">
           <ul class="footer-nav">
@@ -96,5 +102,8 @@
         </div>
       </div>
     </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="./vendors/js/jquery.waypoints.min.js"></script>
+    <script src="./resources/js/script.js"></script>
   </body>
 </html>

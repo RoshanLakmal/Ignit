@@ -1,4 +1,5 @@
 $(document).ready(function(){
+    $("#cover").fadeOut(1750);
     $('.js--section-features').waypoint(function(direction){
         if (direction == "down") {
             $('nav').addClass('sticky');

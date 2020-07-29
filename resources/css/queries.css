@@ -18,6 +18,29 @@
         /* background-color: yellow; */
         font-size: 60%;
       }
+    .mobile-nav-icon {
+        display: inline-block;
+        margin: 15px 15px;
+    }
+
+    .main-nav {
+        display: none;
+    }
+
+    .main-nav {
+        font-size: 180%;
+        float: left;
+    }
+
+    .main-nav li {
+        display: block;
+    }
+
+    .main-nav li a:link,
+    .main-nav li a:visited{
+        display: block;
+        border: 0;
+    }
 }
 
 /* Small phones: from 0 to 480px */

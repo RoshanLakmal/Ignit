@@ -101,6 +101,7 @@ header {
 /* Main navi*/
 .main-nav {
   float: right;
+  scroll-padding-left: 500px;
   list-style: none;
   margin: 15px 15px;
 }
@@ -130,6 +131,26 @@ header {
   width: 100%;
   background-color: #fff;
   z-index: 9999;
+}
+
+/* Sticky navi */
+.mobile-nav-icon {
+  float: right;
+  margin-right: 30px;
+  cursor: pointer;
+  display: none;
+}
+
+.bur-img{
+  height: 40px;
+  width: auto;
+}
+.main-nav-button{
+  float: right;
+  background-color: #ff3454;
+  color: white;
+  padding: 10px;
+  margin: 15px 15px;
 }
 /*---------------------------------------------*/
 /* FOOTER */
@@ -187,6 +208,10 @@ footer{
   opacity: 1;
 }
 
+
+/*---------------------------------------------*/
+/* Loader */
+/*---------------------------------------------*/
 #cover {
   position: fixed;
   height: 100%;

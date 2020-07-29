@@ -1,5 +1,7 @@
 # Ignit
-- Download the files and upload it to XAMPP Server. 
+## Setup
+- Download the files (Directly download/Using git clone command)
+- Unzip the project and upload to XAMPP htdocs folder 
 - Visit localhost:8080/Ignit
 
 ## Refference

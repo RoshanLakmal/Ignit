@@ -1,4 +1,6 @@
 $(document).ready(function(){
+
+    /* Navigation */
     $("#cover").fadeOut(1750);
     $('.js--section-features').waypoint(function(direction){
         if (direction == "down") {
@@ -7,7 +9,6 @@ $(document).ready(function(){
             $('nav').removeClass('sticky');
         }
     }, {
-        // offset: '60px;'
         offset: '190px;'
     });
 
